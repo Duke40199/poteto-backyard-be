@@ -2,6 +2,6 @@ package cmd
 
 import "fmt"
 
-func RunGateway() {
+func RunGatewaySvc() {
 	fmt.Println("gateway is running")
 }
