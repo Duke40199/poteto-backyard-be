@@ -1,6 +1,12 @@
 package cmd
 
-import "fmt"
+import (
+	"fmt"
+)
+
+var (
+	appCfg *Config
+)
 
 func RunGatewaySvc() {
 	fmt.Println("gateway is running")
